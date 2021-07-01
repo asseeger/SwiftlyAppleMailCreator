@@ -1,25 +1,26 @@
 # SwiftlyAppleMailCreator
 
 ## Purpose
-Command Line Tool / Executable to _compose_ a new mail.
+Command Line Tool / Executable to _compose_ a new mail with attachments.
 
-This executable is mainly to be used with Apple Mail, as attaching a file is for 
+This executable is to be used with Apple Mail, as attaching a file is for 
 reasons that are beyond the scope of this project does _not_ work with MS Outlook.
 
 ## Versioning
+2021-07-01 Version 1.1.0 allowing multiple attachments (variadically from `CommandLine.arguments[4]` onwards)
 2020-09-28 Version 1.0.0
 
-## Required Arguments
+## Usage: Required Arguments
 - Email Adress
 - Subject
 - Message Body
-- Absolut path to the attachment file
+- from parameter 5: absolut path(s) to the attachment file(s)
 
 ## Security
 Sandboxing is deactivated for this small project.
 
 ## Disclaimer
-As mentioned above, this project is meant to work with Apple Mail and is conformed working 
+As mentioned above, this project is meant to work with Apple Mail and is confirmed working 
 with that Mail client on
-- macOS 10.15.7
-- (to be continued)
+- macOS 10.15.7+
+- macOS 11+
