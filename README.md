@@ -10,6 +10,8 @@ reasons that are beyond the scope of this project does _not_ work with MS Outloo
 2021-07-01 Version 1.1.0 allowing multiple attachments (variadically from `CommandLine.arguments[4]` onwards)
 2020-09-28 Version 1.0.0
 
+This project is version controlled by git.
+
 ## Usage: Required Arguments
 - Email Adress
 - Subject
