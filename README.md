@@ -21,6 +21,9 @@ This project is version controlled by git.
 ## Security
 Sandboxing is deactivated for this small project.
 
+## Resources
+[https://www.fivestars.blog/articles/ultimate-guide-swift-executables/](https://www.fivestars.blog/articles/ultimate-guide-swift-executables/)
+
 ## Disclaimer
 As mentioned above, this project is meant to work with Apple Mail and is confirmed working 
 with that Mail client on
