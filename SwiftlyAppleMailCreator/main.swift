@@ -9,7 +9,7 @@ import Foundation
 import AppKit
 
 let app = NSApplication.shared
-let VERSION_NUMBER_STRING = "1.2.0"
+let VERSION_NUMBER_STRING = "1.2.1"
 
 class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ notification: Notification) {
@@ -41,13 +41,6 @@ class Interface: NSObject {
         service.subject = subject
         
         var items: [Any] = [body]
-        
-        attachmentPaths.forEach { item in
-            items.append(URL(fileURLWithPath: item).absoluteURL)
-            items.append("\r\r")
-        }
-        
-        
         items.append(contentsOf: attachmentPaths.map { URL(fileURLWithPath: $0).absoluteURL })
         service.perform(withItems: items)
     }

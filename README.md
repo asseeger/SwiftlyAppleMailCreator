@@ -7,6 +7,7 @@ This executable is to be used with Apple Mail, as attaching a file is for
 reasons that are beyond the scope of this project does _not_ work with MS Outlook.
 
 ## Versioning
+2021-07-02 Version 1.2.1 Bugfix: prevent adding attachments twice
 2021-07-02 Version 1.2.0 implementing executable switch `--version`, introducing a version number
 2021-07-01 Version 1.1.0 allowing multiple attachments (variadically from `CommandLine.arguments[4]` onwards)
 2020-09-28 Version 1.0.0
