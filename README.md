@@ -7,6 +7,7 @@ This executable is to be used with Apple Mail, as attaching a file is for
 reasons that are beyond the scope of this project does _not_ work with MS Outlook.
 
 ## Versioning
+2021-07-02 Version 1.2.0 implementing executable switch `--version`, introducing a version number
 2021-07-01 Version 1.1.0 allowing multiple attachments (variadically from `CommandLine.arguments[4]` onwards)
 2020-09-28 Version 1.0.0
 
@@ -17,6 +18,11 @@ This project is version controlled by git.
 - Subject
 - Message Body
 - from parameter 5: absolut path(s) to the attachment file(s)
+
+## Exit Codes
+- `0` – successful, no errors
+- `1` – wrong amount of arguments
+- `2` - unknown switch parameter
 
 ## Security
 Sandboxing is deactivated for this small project.
